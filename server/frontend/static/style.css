@@ -13,8 +13,7 @@ img {
   margin-bottom: 1%;
 }
 
-.team-photo
- {
+.team-photo {
   height: 260px;
   object-fit: cover;
 }
@@ -130,4 +129,53 @@ img {
   border-radius: 50px;
   text-align: center;
   box-shadow: 2px 2px 3px #999;
+}
+
+/* contact */
+
+.contact-panel {
+  width: 80%;
+  margin: auto;
+  margin-top: 3%;
+  border-radius: 20px;
+}
+
+.contact-hero {
+  width: 60%;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.contact-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-icon-col {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-icon {
+  width: 200px;
+}
+
+.contact-details {
+  width: 50%;
+  text-align: center;
+  border-left: 2px solid #333;
+  padding: 20px;
+}
+
+.contact-label {
+  font-weight: bold;
+  color: #4a7fd4;
+  margin-bottom: 0;
+}
+
+.contact-value {
+  color: #555;
+  margin-bottom: 10px;
 }
